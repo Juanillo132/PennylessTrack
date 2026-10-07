@@ -3,8 +3,8 @@ node_modules/
 
 # Variables de entorno
 .env
-.env.local
-.env.*.local
+.env.*
+!.env.example
 
 # Logs
 logs/
@@ -12,6 +12,25 @@ logs/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+
+# Build de React / Vite
+dist/
+build/
+.vite/
+
+# Cachés
+.cache/
+coverage/
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Firebase Emulator
+.emulator/
 
 # Archivos temporales
 tmp/
@@ -24,13 +43,3 @@ Thumbs.db
 # Editores
 .vscode/
 .idea/
-
-# Cobertura de tests
-coverage/
-
-# Archivos de build
-dist/
-build/
-
-#archivo de entorno de produccion
-.env.production
