@@ -31,3 +31,6 @@ coverage/
 # Archivos de build
 dist/
 build/
+
+#archivo de entorno de produccion
+.env.production
