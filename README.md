@@ -396,7 +396,7 @@ La fecha:
 
 Estas validaciones evitan almacenar información incorrecta en la base de datos.
 
-## Seguridad
+## Seguridad:
 
 PennyLessTrack sigue algunas medidas básicas de seguridad:
 
