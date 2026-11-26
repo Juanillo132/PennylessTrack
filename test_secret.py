@@ -1,1 +1,0 @@
-GITHUB_API_TOKEN = "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"
